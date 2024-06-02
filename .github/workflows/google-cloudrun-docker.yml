@@ -50,10 +50,13 @@ on:
 
 env:
   PROJECT_ID: enhanced-pen-424706-t3 # TODO: update Google Cloud project id
-  GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
+#cloud run
+  REGION: us-central1 # TODO: update Cloud Run service region Registry location
   SERVICE: employee-server # TODO: update Cloud Run service name
+  
+#artificat registery repository
   ART_REG: employee # TODO: update Cloud Run service name
-  REGION: us-central1 # TODO: update Cloud Run service region
+  GAR_LOCATION: us-central1 # TODO: update Artifact
   IMAGE: employeeServer
 
 jobs:
